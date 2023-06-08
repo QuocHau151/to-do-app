@@ -1,0 +1,46 @@
+.abc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.abc input {
+  width: 100vw;
+  height: 30px;
+  outline: none;
+}
+.abc button {
+  height: 35px;
+  width: 7%;
+  border: none;
+}
+.congviec {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 300px;
+}
+.congviec .doing {
+  display: flex;
+  flex-direction: column;
+}
+.congviec .done {
+  display: flex;
+  flex-direction: column;
+}
+.check {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 0 10px;
+  border: 1px solid #000;
+}
+.isComplete {
+  background-color: #ddd;
+}
+.isComplete h3 {
+  text-decoration: line-through;
+}
+.isComplete button {
+  display: none;
+}
